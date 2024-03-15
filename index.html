@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    </head>
+    <body>
+      <a-scene inspector="" keyboard-shortcuts="" screenshot="" xr-mode-ui="" device-orientation-permission-ui="">
+        <!-- Saule -->
+          <a-sphere radius="2" position="0 1.6 -3" material="" geometry=""></a-sphere>
+          <a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 2000; easing: linear">
+            <!-- Mercury -->
+            <a-sphere position="0" radius="1" color="#EF2D5E" material="" geometry=""></a-sphere>
+            <a-sphere position="5" radius="1.25" color="#00FF00" material="" geometry=""></a-sphere>
+            <a-sphere position="0 1.25 -11" radius="1.25" color="#56800" material="" geometry=""></a-sphere>
+          
+          </a-entity>
+          <!-- VEnus -->
+<a-sound src="src: url(255979.mp3)" autoplay="true" loop="true" position="" sound=""></a-sound>
+
+          <a-sky color="#ECECEC" material="" geometry=""></a-sky>
+      <div class="a-loader-title" style="display: none;">Document</div></a-scene>
+    </body>
+</html>
